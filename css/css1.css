@@ -16,3 +16,48 @@
 			
 			
 		}
+        .font1{
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+			font-size: 5;
+			color:white;
+				
+		}/**简历内容正文*/
+		.font2{
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+			font-size: 4;
+			color: white;
+			
+			
+			
+			
+			
+			
+		}/**头像的外框*/
+          .box1{padding: 0px;
+			border: pink solid 10px;
+			margin-bottom: 10px;
+			width: 310px;
+			height: 310px;
+			border-radius: 100%;  
+			
+			
+		}
+
+
+              /**简历内容外框*/
+         .box2{margin-top: 50px;
+			border: solid orange 10px ;
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			margin-right: 20px;
+			
+		}/**二维码的外框*/
+         .box3{padding: 0px;
+			border: pink solid 10px;
+			margin-bottom: 10px;
+			width: 310px;
+			 height: 310px;
+}
+	
