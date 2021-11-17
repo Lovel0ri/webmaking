@@ -18,7 +18,7 @@
 		}
         .font1{
 			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-			size: 6;
+			
 			color:white;
 				
 		}/**简历内容正文*/
@@ -103,7 +103,7 @@
 	margin: 10px;
 	
 	
-}
+}/**divright部分的分割线*/
 .hr1{
 	margin-right: 10px;
 	margin-left: 10px;
@@ -111,6 +111,13 @@
 	
 	
 	
+	
+}
+/**divleft部分的分割线*/
+.hr2{
+	
+
+	height: 5px;
 	
 }
 .img2{
