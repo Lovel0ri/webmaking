@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta name="个人简历" charset="utf-8">
+<title>个人简历</title>	
+	<link href="../css/css1.css" rel="stylesheet">	
+</head>
+
+<body>
+	<div id="divtop">
+	
+		
+		<div id="divheader">
+			<video  muted src="../img/video.mp4" loop autoplay ></video>
+				
+			<div id="div1">
+				<font size="+6" color="white">
+					<strong>
+						个人简历
+					
+					</strong>
+				
+				
+				</font>
+			
+			
+			</div>
+		</div>	
+		
+		
+		
+	
+	
+	
+	<div id="divbody">
+	
+		<div id="divleft">
+			
+			<h1 align="center">
+				<font color="white" >
+					个人信息
+				</font>	
+				<h2 align="center">
+					<font color="white">
+						<br>李树斌
+					<br>网络与新媒体专业 广州
+
+					
+					</font>
+					
+				
+				</h2>
+					
+				
+				
+			</h1>
+				
+
+				<div id="divleft1">
+					
+					<div class="box1">
+						<img  class="img1" src="../img/touxiang.jpg" alt="头像" width="310px" height：auto >
+					</div>
+					<div class="box3">
+						<img  src="../img/QR Code.jpg" alt="二维码" width="310px" height="310px">
+					</div>
+					
+					<div class="box5">
+						<img class="img2" src="../img/jiesao.png" alt="基本信息图标">
+						<font class="font1" size=+3>
+						<strong>基本信息</strong>
+						</font>
+						<br>
+						<hr class="hr2" color="pink">
+						<font class="font1">
+							<font size="5" color=#E2E13C>
+								<strong>
+									出生日期：2002年10月10日
+									<br>
+									年龄：19岁
+									<br>
+									籍贯：广东省佛山市
+									<br>
+									英语考级：未考
+									<br>
+									计算机考级：未考
+									<br>
+									婚姻状况:未婚
+									
+							
+							<br>	
+							
+							</strong>
+								
+							</font>
+							
+						
+						</font>
+					</div>
+				
+				</div>
+				
+			
+			
+			
+		
+		
+		</div>
+		<div id="divright">
+			
+			
+				<div class = "box2">
+					
+					
+						
+						<h2 align="center">
+							<img class="img2" src="../img/xuexi.png" alt="学习经历图标" >
+							教育经历
+							<hr class="hr1" color="#E3AB18">
+						</h2>
+					<p>
+					<ul>
+						
+                          <li>
+							  <p>	
+								  <font class="font1" size="5">
+									  <strong>
+										    广东省佛山市顺德区大良实验小学（小学）
+									  </strong>
+								
+								  </font>	  
+									  <p>
+										  <font class="font2" size="4">
+											  小学学习勤奋刻苦，英语成绩尤为突出，在五年级的时候排名位居年级前列，六年级仍能保持不错的成绩。
+										  
+										  
+										  </font>
+									  </p>
+								 
+							  </p>
+                          </li>
+                          <li>
+							  <p>
+								  <font class="font1" size="5">
+									 <strong>
+								  广东顺德德胜学校（初中）
+									 </strong>  
+									  
+								  </font>
+								  <p></p>
+								  <font class="font2" size="4">
+								  上进心较足，初二从年级中游冲刺到年级前150名，学科发展较均衡，能继续保持英语的优势。
+								  
+								  
+								  </font>
+							  </p>
+                          </li>
+                          <li>
+							  <p>
+							  <font class="font1" size="5">
+								  <strong>
+									   广东省佛山市顺德区桂洲中学(高中)
+								  
+								  </strong>
+								 
+								  </font>
+							  </p>
+
+                          </li>
+						
+
+                    </ul>
+
+					</p>
+					
+					
+					
+					
+				
+			
+				</div>
+
+        <div class="box4">
+		
+			<h2 align="center" >
+			<img class="img2" src="../img/zaixiao.png"alt="在校" >
+				在校经历
+			<hr class="hr1" color=#E3AB18>
+			
+
+			</h2>
+			
+			
+			<font class="font1" size="5"><strong>
+				<img class=img2 src="../img/gongzuo.png" alt="工作" >文传学院团学2021.9至今</strong></font>
+			<p></p>
+
+			<div class="box41"><font class="font3" size="4">参与学院管理，调配租借学院物资，提高场地策划与活动组织能力。对文学与传媒学院所举办活动的地点进行布置。</font>
+			</div>
+			
+        </div
+			
+			
+
+			
+			
+			
+		
+		
+		</div>
+
+	
+	
+	
+	
+	</div>
+		
+
+</body>
+ <script>
+        let img = document.querySelector('.img')
+        // 定义小图片的旋转角度
+        let deg = 0
+        // 定义小图片位于网页左侧的位置
+        let imgx = 0
+        // 定义小图片位于网页顶部的位置
+        let imgy = 0
+        // 定义小图片x轴的位置
+        let imgl = 0
+        // 定义小图片y轴的位置
+        let imgt = 0
+        // 定义小图片翻转的角度
+        let y = 0 
+        // 定义一个计数器
+        let index = 0
+
+        window.addEventListener('mousemove',function(xyz){
+            // 获取网页左侧距离的图片位置
+            imgx = xyz.x - img.offsetLeft - img.clientWidth /2
+            // 多去网页顶部距离图片的位置
+            imgy = xyz.y - img.offsetTop - img.clientHeight /2
+            // 套入公式，定义图片的旋转角度
+            deg = 360*Math.atan(imgy/imgx)/(2*Math.PI)
+            // 每当鼠标移动的时候重置index
+            index= 0
+            // 定义当前鼠标的位置
+            let x = event.clientX
+            // 当鼠标的x轴大于图片的时候，提普安就要对着鼠标，所以需要将图片翻转过来
+            // 否则就不用翻转
+            if(img.offsetLeft<x){
+                y=-180
+            }else{
+                y=0
+            }
+        })
+        setInterval(()=>{
+            // 设置小图片的旋转和翻转
+            img.style.transform = "rotateZ("+deg+"deg) rotateY("+y+"deg)"
+            index++
+            // 在这里设置小图片的位置和速度，并判断小图片到达鼠标位置时停止移动
+            if(index<50){
+                imgl+=imgx/50
+                imgt+=imgy/50
+            }
+            img.style.left = imgl+"px"
+            img.style.top = imgt+"px"
+        },10)
+    </script>
+</html>

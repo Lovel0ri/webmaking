@@ -1,8 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
+video{
+	height: auto;
+	width: auto;
+	position: absolute;
+	
+	bottom: 0px;
+	z-index: 1;
+	
+	
+}
 #divtop{
 	
 			background:url(../img/top.jpg)no-repeat;
+	
 			background-size: 100% ;
 	background-color: green;
 	width: 1920px;
@@ -126,6 +137,93 @@
 	
 	
 }
+.beijing{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			min-width: 1000px;
+			z-index: -10;
+			zoom:1;
+			background-color: #FFFFFF;
+			background-image: url(../img/background2.jpg) ;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			
+		}
+		  .img3{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-image: url(../img/goat.gif);
+            background-size: cover;
+			  
+			
+        }
+	 
+		/**顶部文本*/
+		#div1{position:relative;
+			margin-left:50px;
+			margin-bottom:50px;
+			z-index: 2;
+			
+			
+			
+			
+			
+			
+		}/**body部分的框架*/
+		#divbody{background:url(../img/background2.jpg) no-repeat;
+			background-size: 100%;
+			display: flex;
+			flex-direction: row;
+			
+			
+		
+			background-color: green;
+			left: 0px;
+			
+			
+			
+			
+			
+		}/**body里左边部分的框架*/
+		#divleft{display: flex;
+			flex-flow: wrap;
+			margin-left: 50px;
+			flex-direction: column;
+			
+			width: 300px;
+			
+			}
+		#divleft1{padding-bottom: 0px;
+			
+			
+			
+			
+			
+		}
+		#divright{display: flex;
+			margin-left: 100px;
+			flex-direction: column;
+			
+			
+			
+			
+		}
+		h2{
+			margin-top: 0px;
+			
+			
+		}
+		.img1{
+			border-radius: 100%;
+			
+			
+			
+		}
 
 	
 	
